@@ -13,15 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Koko
+title: Mycroft's musings ...
 email: koko@example.com
-description: That's an update now.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: I am lazy!
+destination: docs
+# baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/su-jekyll-mycroft" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: kdankov
+github_username:  kdankov
 
 # Build settings
+future: true
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -29,11 +32,16 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs
+  - _assets
+  - gulpfile.js
+  - package.json
+  - package-lock.json
