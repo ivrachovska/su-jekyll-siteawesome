@@ -2,4 +2,54 @@
     border-top: 1px solid var(--color-border-default, #000);
     margin-top: var(--spacing-layout-elements);
     padding-top: var(--spacing-layout-elements);
+    background: #f2faeb;
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+
+.icon:before {
+   display: inline-block;
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 900;
+}
+
+.icon-brands:before {
+   font-family: 'Font Awesome 5 Brands';
+}
+
+.icon-mobile:before {
+   content: '\f3cd';
+   padding-right: 0.5rem;
+}
+
+.icon-facebook:before {
+   content: '\f39e';
+}
+
+.icon-twitter:before {
+   content: '\f099';
+}
+
+.icon-instagram:before {
+   content: '\f16d';
+}
+
+.icon-youtube:before {
+   content: '\f167';
+}
+
+.site-footer a {
+   color: #000;
+}
+
+.social_icons {
+   display: flex;
+}
+
+.social_icons li {
+   list-style: none outside;
+   padding-right: 0.7rem;
 }

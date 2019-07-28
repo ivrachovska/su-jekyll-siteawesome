@@ -2,9 +2,11 @@
     border-bottom: 1px solid var(--color-border-default, #000);
     margin-bottom: var(--spacing-layout-elements);
     padding-bottom: var(--spacing-layout-elements);
+    text-align: center;
+    padding: 4rem 0 2rem 0;
 }
 
-.site-title {
+/*.site-title {
     margin: 0px;
     padding: 0px;
     font-size: 2em;
@@ -13,4 +15,12 @@
 .site-title a {
     display: block;
     padding: 0.5em;
+}*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

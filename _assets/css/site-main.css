@@ -1,0 +1,136 @@
+h2 {
+    text-align: center;
+}
+
+h2:after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.wrapper {
+    max-width: 1950px;
+    margin: 0, auto;
+}
+
+.banner {
+    background: #faf8f0;
+    background-size: content;
+    color: #000;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.site-navigation ul {
+    display: flex;
+    justify-content: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+}
+
+.site-navigation a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.6rem 1.2rem;
+    display: inline-block;
+ }
+
+ .site-heading {
+     font-size: 50px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+     padding: 5rem 0 2rem 0;
+ }
+
+ .site-description {
+     font-size: 20px;
+     margin: 0 auto;
+     margin-bottom: 3rem;
+ }
+
+ .button {
+     text-transform: uppercase;
+     font-weight: 700;
+     background: pink;
+     padding: 0.5rem 1rem;
+     border-radius: 4px;
+     border: none;
+     color: #fff;
+ }
+
+ .mainpic {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+ }
+
+ .mainpic img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ .services {
+     padding: 3rem 0;
+     width: 60%;
+     margin: 0 auto;
+ }
+
+ .services-list {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 1.5rem;
+ }
+
+ .services-list div {
+     flex: 0 0 30%;
+     text-align: center;
+ }
+
+ .services-list img {
+     width: 50px;
+     padding-bottom: 1rem;
+ }
+
+ .services-list h4 {
+     color: tomato;
+     padding-bottom: 1rem;
+     font-size: 20px;
+ }
+
+ .product-line {
+    padding: 3rem 0;
+    width: 70%;
+    margin: 0 auto;
+    background: #EFEFEF;
+ }
+
+ .product-line img {
+     width: 250px;
+     height: auto;
+     border-radius: 2px;
+     
+ }
+
+ .product-line h2 {
+     color: #000;
+     padding-bottom: 0;
+
+ }
+
+ .honey {
+     color: green;
+     padding-bottom: 0.5rem;
+
+ }
+
+ .product-line .services-list div {
+     flex: 0 0 25%;
+ }
